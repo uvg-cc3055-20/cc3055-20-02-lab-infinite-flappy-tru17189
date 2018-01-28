@@ -14,7 +14,7 @@ public class Column : MonoBehaviour {
         transform.Translate(Vector3.left * scrollingSpeed * Time.deltaTime);
         if (transform.position.x < -10)
         {
-            Destroy(gameObject);
+			Destroy(gameObject);
         }
     }
 }
